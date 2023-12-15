@@ -1,0 +1,106 @@
+.nameone {
+    /* font-weight: bold;
+    font-size: 25px;
+    width: 100px; */
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+  
+}
+
+
+.inputone{
+     width: 240px;
+     height: 50px;
+    /* margin-left: 60px;
+    margin-bottom: 15px;
+    height: 50px;  */
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+
+
+.dinesh{
+   
+display: flex;  
+align-items: center;
+justify-content: space-between;
+}
+
+.login {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 4px solid rgb(163, 12, 12);
+    width: 400px;
+    margin: auto;
+    padding: 50px;
+    height: auto;
+
+}
+
+.logindiv {
+    height: 700px;
+    width: 600px;
+    border: 4px solid black;
+    margin: 20px auto;
+}
+
+.bu {
+    background-color: aqua;
+    color: black;
+    height: 50px;
+    width: 350px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 25px;
+}
+
+.bu:hover {
+    scale: 0.95;
+}
+
+.para {
+    font-size: 20px;
+    font-weight: bold;
+}
+@media screen and (max-width:786px) {
+    .logindiv{
+        width: 450px;
+        height: 600px;
+        margin: 20px auto;
+    }
+    .login{
+        width: 300px;
+        margin: auto;
+        padding: 50px;
+        height: auto;
+    }
+    .bu{
+        font-size: 20px;
+        font-weight: bold;
+        width: 300px;
+        margin-left: -10px;
+        height: 50px;
+    }
+    .para{
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+    }
+    .dinesh{
+       display: flex;
+       flex-direction: column;
+    }
+    .nameone{
+font-size: 25px;
+font-weight: bold;
+margin-left: -40px;
+    }
+    .inputone{
+
+    }
+}
